@@ -176,7 +176,7 @@ if __FILE__ == $0
   $words = []
   $alphabet = ["Q","W","E","R","T","Y","U","I","O","P","\n",
     "A","S","D","F","G","H","J","K","L","\n",
-    " ","Z","X","C","V","B","N","M"]
+    "","Z","X","C","V","B","N","M"]
   File.open("words.txt").each_line do |line| 
     $words << line.split("\n")[0]
   end
